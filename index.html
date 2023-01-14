@@ -5,14 +5,38 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Daniel Valentim">
-	<meta name="keywords" content="">
-	<meta name="description" content="">
+	<meta name="keywords" content="Notepad">
+	<meta name="description" content="Bloco de notas com html, css e javascript">
 	<link rel="shortcut icon" href="" type="image/x-icon">
-	<link rel="stylesheet" href="style.css">
-	<script src="script.js" defer></script>
-	<title></title>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
+	<script src="./js/script.js" defer></script>
+	<title>Notepad</title>
 </head>
 <body>
-	
+	<button id="adicionar" class="adicionar">
+		<i class="fas" fa-plus>Nova Nota</i>
+	</button>
+
+	<div class="nota">
+		<div class="configuracao">
+			<button class="editar">
+				<i class="fas fa-edit"></i>
+			</button>
+
+			<button class="deletar">
+				<i class="fas fa-trash-alt"></i>
+			</button>
+		</div>
+		<div class="main hidden"></div>
+		<textarea placeholder="Click aqui para digitar"></textarea>
+		</div>
+	</div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/3.0.8/marked.min.js" integrity="sha512-OA0KzIFyfjEiECfdTeeqyDa++XmSLWyIBr8bWf2lpdv3qNr2TxpR9uaL2fKaz/Nz35kVVPEagjhWdWat/khWXw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 </body>
 </html>
