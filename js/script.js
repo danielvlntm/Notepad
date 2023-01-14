@@ -1,6 +1,7 @@
 const adicionarBtn = document.getElementById('adicionar');
 const notas = JSON.parse(localStorage.getItem("notas"));
 
+
 if (notas) {
 		notas.forEach(nota => adicionarNovaNota(nota));
 }
